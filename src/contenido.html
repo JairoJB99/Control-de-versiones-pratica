@@ -1,0 +1,51 @@
+	<!doctype html>
+
+	<html lang="en">
+	<head>
+	  <meta charset="utf-8">
+
+	  <title>JS Curse</title>
+	  <meta name="author" content="Jairo Julià Bravo">
+
+	  <link type="text/css" rel="stylesheet" href="./style/style.css">
+	</head>
+
+	<body>
+
+		<header>
+			<h1>JavaScript Curse</h1>
+		</header>
+
+		<nav>
+			<ul>
+				<li><a href="./home.html">Home</a></li>
+				<li><a href="#">Modificar contenido HTML</a></li>
+				<li><a href="./estilos.html">Modificar estilos CSS</a></li>
+				<li><a href="./atributos.html">Modificar atributos HTML</a></li>
+			</ul>
+		</nav>	
+
+		<section>
+			<textarea class="code">
+				<!DOCTYPE html>
+				<html>
+					<body>
+						<h2>What Can JavaScript Do?</h2>
+						<p id="demo">JavaScript can change HTML content.</p>
+						<button type="button" onclick='document.getElementById("demo").innerHTML = "Hola JavaScript!"'>Click Me!</button>
+					</body>
+				</html>
+			</textarea>
+
+			<h3>Ejemplo</h3>
+			<p id="demo">JavaScript can change HTML content.</p>
+			<button type="button" onclick='document.getElementById("demo").innerHTML = "Hola JavaScript!"'>Click Me!</button>
+
+			<h3>Explicación</h3>
+			<p>Utilizando el "getElementById" obtenemos el elemento de html con esa id única con lo que podremos modificar el valor de este.</p>
+		</section>
+		<footer>
+			<p>JJB JavaScript Curse</p>
+		</footer>
+	</body>
+	</html>
